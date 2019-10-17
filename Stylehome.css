@@ -1,0 +1,39 @@
+@font-face{
+	font-family:gillfont;
+	src:url(GillSansUltraBold.ttf);
+}
+
+.nav{
+	display: flex;
+	flex-direction: row;
+	flex:1 1 auto;
+	justify-content: center;
+	justify-content: space-evenly;
+	width: auto;
+	height:auto;
+	position:relative;
+	}
+
+.navimg{
+	display: flex;
+	flex-direction: row;
+	flex:1 1 auto;
+	transform:all 0.2s ease-in-out;
+	
+	
+}
+.navimg:hover{
+	transform: scale(1.05);
+}
+
+.name{
+	font-family:gillfont;
+	font-size: 300%;
+	text-align:center;
+	text-size: 300%;
+	color: DodgerBlue;
+	text-shadow: 3px 2px black;
+}
+body{
+	background: url("assets/Pictures/leaves.jpg");
+}
