@@ -41,3 +41,34 @@ body{
 	background: url("assets/Pictures/cardbg.png");
 	
 }
+
+.Video{
+	position: center;
+	left: 400px;
+    margin: auto;
+	margin-left:-100px;
+	text-align:center;
+}
+.nav{
+	display: flex;
+	flex-direction: row;
+	flex:1 1 auto;
+	justify-content: center;
+	justify-content: space-evenly;
+	width: auto;
+	height:auto;
+	position:relative;
+	
+	
+}
+.navimg{
+	display: flex;
+	flex-direction: row;
+	flex:1 1 auto;
+	transform:all 0.2s ease-in-out;
+	
+	
+}
+.navimg:hover{
+	transform: scale(1.05);
+}
